@@ -31,7 +31,8 @@ public class Task_JqueryUI {
 		d = new ChromeDriver();
 		d.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		d.get("https://jqueryui.com/");
-		logger.info("webpage opened successfully");
+		//logger.info("webpage opened successfull");
+		System.out.println("webpage opened succesfully");
 		
 	}
 
